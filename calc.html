@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calc</title>
+	<link rel="stylesheet" href="lab.css">
+		
+	</style>
+	<script type="text/javascript" src="lab.js">
+		
+	</script>
+</head>
+<body>
+	
+			<table id="back" cellspacing="5px" >
+				<tr>
+					<td>
+						<button type="button" class="clear" onclick="clearer()">C</button>
+					</td>
+					<td colspan="3" id="res">
+						0
+					</td>	
+				</tr>
+				<tr>
+					<td><button class="inp" onclick="f(7)"> 7 </button></td>
+					<td><button class="inp" onclick="f(8)"> 8 </button></td>
+					<td><button class="inp" onclick="f(9)"> 9 </button></td>
+					<td><button class="calc" onclick="op('+')"> + </button></td>
+				</tr>
+				<tr>
+					<td><button class="inp" onclick="f(4)"> 4 </button></td>
+					<td><button class="inp" onclick="f(5)"> 5 </button></td>
+					<td><button class="inp" onclick="f(6)"> 6 </button></td>
+					<td><button class="calc" onclick="op('-')"> - </button></td>
+				</tr>
+				<tr>
+					<td><button class="inp" onclick="f(1)"> 1 </button></td>
+					<td><button class="inp" onclick="f(2)"> 2 </button></td>
+					<td><button class="inp" onclick="f(3)"> 3 </button></td>
+					<td><button class="calc" onclick="op('/')"> / </button></td>
+				</tr>
+				<tr>
+					<td><button class="inp" onclick="f(0)"> 0 </button></td>
+					<td><button class="inp" onclick="dot()"> . </button></td>
+					<td><button class="equalto" onclick="final()"> = </button></td>
+					<td><button class="calc" onclick="op('x')"> x </button></td>
+				</tr>
+			</table>
+		
+</body>
+</html>

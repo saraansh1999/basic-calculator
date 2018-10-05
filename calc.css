@@ -1,0 +1,51 @@
+body{
+			font-family: monospace;
+		}
+		#back{
+			
+			background-color: dodgerblue;
+			margin: 10px;
+			padding: 10px;
+			width: 20vw;
+			
+			border-radius: 7px;
+
+
+		}
+		.clear{
+			box-shadow: 0 2px #191919;
+			background-color: pink;
+			color: white;
+			width: 100%;
+
+			border-radius: 5px;
+		}
+		#res{
+			background-color: lightblue;
+			border-top:3px solid grey;
+			height: 100%;
+			border-radius: 5px;
+			text-align: right;
+
+		}
+		.inp{
+			background-color: white;
+			box-shadow: 0 2px grey;
+			width: 100%;
+			height: 100%;
+			border-radius: 5px;
+		}
+		.calc{
+			background-color: lightpink;
+			box-shadow: 0 2px grey;
+			width: 100%;
+			height: 100%;
+			border-radius: 5px;
+		}
+		.equalto{
+			background-color: lightgreen;
+			box-shadow: 0 2px grey;
+			width: 100%;
+			height: 100%;
+			border-radius: 5px;
+		}
